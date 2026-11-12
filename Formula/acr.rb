@@ -1,7 +1,7 @@
 class Acr < Formula
   desc "GitHub-native package manager for coding-agent context"
   homepage "https://github.com/jbaruch/agentic-context-registry"
-  version "0.3.2"
+  version "0.4.0"
   license "Apache-2.0"
 
   livecheck do
@@ -11,21 +11,21 @@ class Acr < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jbaruch/agentic-context-registry/releases/download/v0.3.2/acr-darwin-arm64.tar.gz"
-      sha256 "e575e5c26f1b75957299d39d674a57cbdac31dab4d987cf9c1638108d8c0753b"
+      url "https://github.com/jbaruch/agentic-context-registry/releases/download/v0.4.0/acr-darwin-arm64.tar.gz"
+      sha256 "6791d1973d5e44ee3b75aebb27e8f5397e2a42526e399c499a99fe9e9bd7477c"
     else
-      url "https://github.com/jbaruch/agentic-context-registry/releases/download/v0.3.2/acr-darwin-amd64.tar.gz"
-      sha256 "b80dc2623cd74571ce7ef406dd0e7d16a06365808d134d9a2d8c1296535e8ed1"
+      url "https://github.com/jbaruch/agentic-context-registry/releases/download/v0.4.0/acr-darwin-amd64.tar.gz"
+      sha256 "613f699b4083fccc7f3e7dd1afd74ce386a91b3ba70dea0686def39b9f25f310"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/jbaruch/agentic-context-registry/releases/download/v0.3.2/acr-linux-arm64.tar.gz"
-      sha256 "6fed52ee2df87d2284228be58ca6bfd69217f099245547d533bc43b6a065fc56"
+      url "https://github.com/jbaruch/agentic-context-registry/releases/download/v0.4.0/acr-linux-arm64.tar.gz"
+      sha256 "8812629df27ecf980e2b8223504ec0c88f3ef76b24190d56d9737d57db2e1092"
     else
-      url "https://github.com/jbaruch/agentic-context-registry/releases/download/v0.3.2/acr-linux-amd64.tar.gz"
-      sha256 "a34389f29d9924191154490497363d403d41222afccba300e8c7bc1862b01df0"
+      url "https://github.com/jbaruch/agentic-context-registry/releases/download/v0.4.0/acr-linux-amd64.tar.gz"
+      sha256 "436867c8b80c5b0ce84e58567a091fd951d98516ef3fee28400b32805f22c8a3"
     end
   end
 
